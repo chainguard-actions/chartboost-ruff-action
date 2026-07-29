@@ -1,0 +1,31 @@
+name: Test ruff with pinned version
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Create clean Python file
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/tests/fixtures/versioned"
+          cat > "$GITHUB_WORKSPACE/tests/fixtures/versioned/clean.py" << 'EOF'
+          """A clean Python module."""
+
+
+          def add(a: int, b: int) -> int:
+              """Return sum of two integers."""
+              return a + b
+          EOF
+
+      - id: action
+        uses: .
+        with:
+          args: check
+          src: tests/fixtures/versioned
+          version: "0.4.4"
+
+      - name: Assert action succeeded with pinned version
+        run: |
+          echo "PASS: ruff check passed with pinned version 0.4.4"

@@ -1,0 +1,14 @@
+name: CheckPython
+
+on: [push, pull_request]
+
+permissions: {}
+
+jobs:
+  clean-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
+      - uses: psf/black@87928e6d6761a4a6d22250e1fee5601b3998086e # stable
+      - uses: chartboost/ruff-action@6cbe846bf8b894d88588d7c5e079b9c74981ea76 # v0
+      - uses: jakebailey/pyright-action@6baf8b2bcc1727b5a89249955f936d4a6f9f995b # v1
