@@ -9,7 +9,7 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 | Version | Tag | Upstream commit |
 |---------|-----|-----------------|
 | v1 | [`v1`](https://github.com/chainguard-actions/chartboost-ruff-action/tree/v1) | [`e18ae97`](https://github.com/chartboost/ruff-action/commit/e18ae971ccee1b2d7bbef113930f00c670b78da4) |
-| v1.0.0 | [`v1.0.0`](https://github.com/chainguard-actions/chartboost-ruff-action/tree/v1.0.0) | — |
+| v1.0.0 | [`v1.0.0`](https://github.com/chainguard-actions/chartboost-ruff-action/tree/v1.0.0) | [`e18ae97`](https://github.com/chartboost/ruff-action/commit/e18ae971ccee1b2d7bbef113930f00c670b78da4) |
 
 ## Privacy
 
