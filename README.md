@@ -6,10 +6,10 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 ## Versions
 
-| Version | Tag | Upstream commit |
-|---------|-----|-----------------|
-| v1 | [`v1`](https://github.com/chainguard-actions/chartboost-ruff-action/tree/v1) | [`e18ae97`](https://github.com/chartboost/ruff-action/commit/e18ae971ccee1b2d7bbef113930f00c670b78da4) |
-| v1.0.0 | [`v1.0.0`](https://github.com/chainguard-actions/chartboost-ruff-action/tree/v1.0.0) | [`e18ae97`](https://github.com/chartboost/ruff-action/commit/e18ae971ccee1b2d7bbef113930f00c670b78da4) |
+| Version | Tag | Upstream commit | Hardening report |
+|---------|-----|-----------------|------------------|
+| v1 | [`v1`](https://github.com/chainguard-actions/chartboost-ruff-action/tree/v1) | [`e18ae97`](https://github.com/chartboost/ruff-action/commit/e18ae971ccee1b2d7bbef113930f00c670b78da4) | [`HARDENING.md`](https://github.com/chainguard-actions/chartboost-ruff-action/blob/v1/HARDENING.md) |
+| v1.0.0 | [`v1.0.0`](https://github.com/chainguard-actions/chartboost-ruff-action/tree/v1.0.0) | [`e18ae97`](https://github.com/chartboost/ruff-action/commit/e18ae971ccee1b2d7bbef113930f00c670b78da4) | [`HARDENING.md`](https://github.com/chainguard-actions/chartboost-ruff-action/blob/v1.0.0/HARDENING.md) |
 
 ## Privacy
 
