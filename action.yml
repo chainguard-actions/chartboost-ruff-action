@@ -39,9 +39,9 @@ runs:
           "https://actions.enforce.dev/actions/v1/record" >/dev/null 2>&1 || true
     - run: |
         if [ "$RUNNER_OS" == "Windows" ]; then
-          python $GITHUB_ACTION_PATH/action/main.py
+          python "$GITHUB_ACTION_PATH/action/main.py"
         else
-          python3 $GITHUB_ACTION_PATH/action/main.py
+          python3 "$GITHUB_ACTION_PATH/action/main.py"
         fi
       env:
         RUFF_FORMAT: github
