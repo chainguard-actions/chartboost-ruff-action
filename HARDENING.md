@@ -1,12 +1,14 @@
-# Hardening Report: chartboost--ruff-action/v1
+<!-- markdownlint-disable -->
+
+# Hardening Report: ChartBoost--ruff-action/v1
 
 > This file was generated automatically by the hardening agent.
 
-**Policy SHA:** `ff50f15e4b79bfbf764dafdfd2579175a6ea9771`
+**Policy SHA:** `374911c4be584df24e6da57af2d990570ef0f859`
 
 **Test Policy SHA:** `843adf9e4b8f85d0c08b27b9d0b09dd094b54702`
 
-**Harden Agent Version:** `1`
+**Harden Agent Version:** `2`
 
-Action **chartboost--ruff-action/v1** was hardened automatically. 0 finding(s) were identified and resolved across 0 iteration(s).
+Action **ChartBoost--ruff-action/v1** was analyzed against the hardening policy and no findings were identified: the upstream action already passes every check.
 
